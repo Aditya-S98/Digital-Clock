@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #1f1f1f;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 150px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  color: azure;
+}
+
+button {
+  padding: 12px 20px;
+  background: #9b59b6;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
